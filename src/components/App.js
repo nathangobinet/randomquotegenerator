@@ -25,8 +25,10 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>Random <span className="quote">quote</span> generator</h1>
-                <QuoteBoxContainer id="quote-box" />
+                <div className="wrapper">
+                    <h1>Random <span className="quote">quote</span> generator</h1>
+                    <QuoteBoxContainer id="quote-box" />
+                </div>
                 <footer>
                     Made with ♥️ by <a href="https://github.com/nathangobinet/randomquotegenerator" target="_blank">Nathan Gobinet</a>
                 </footer>
