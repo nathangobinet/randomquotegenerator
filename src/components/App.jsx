@@ -18,7 +18,7 @@ const App = () => (
     <div className="wrapper">
       <h1>
         Random
-        <span className="quote">quote</span>
+        <span className="quote"> quote </span>
         generator
       </h1>
       <QuoteBoxContainer id="quote-box" />
@@ -26,8 +26,8 @@ const App = () => (
     <footer>
       Made with
       <span aria-label="love" role="img"> ♥️ </span>
-      by
-      <a href="https://github.com/nathangobinet/randomquotegenerator" target="_blank" without rel="noopener noreferrer"> Nathan Gobinet</a>
+      <span>by </span>
+      <a href="https://github.com/nathangobinet/randomquotegenerator" target="_blank" without rel="noopener noreferrer">Nathan Gobinet</a>
     </footer>
   </div>
 );
